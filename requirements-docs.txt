@@ -5,3 +5,4 @@ mkdocs-table-reader-plugin<=2.0.1
 mike>=2.0.0,<2.1.0
 mkdocstrings[python]>=0.20.0,<1.0.0
 mkdocs-badges
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
