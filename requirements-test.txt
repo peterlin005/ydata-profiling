@@ -7,3 +7,4 @@ nbval
 pyarrow
 twine>=3.1.1
 kaggle
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
