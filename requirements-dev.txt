@@ -1,4 +1,4 @@
-black>=20.8b1
+black>=24.3.0
 isort>=5.0.7
 pre-commit>=2.8.2
 virtualenv>=20.0.33
@@ -9,3 +9,6 @@ sphinx_rtd_theme>=0.4.3
 sphinx-autodoc-typehints>=1.10.3
 sphinx-multiversion>=0.2.3
 autodoc_pydantic
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
