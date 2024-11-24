@@ -7,3 +7,4 @@ nbval
 pyarrow
 twine>=3.1.1
 kaggle
+tornado>=6.4.2 # not directly required, pinned by Snyk to avoid a vulnerability
