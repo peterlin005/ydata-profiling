@@ -7,3 +7,4 @@ nbval
 pyarrow
 twine>=3.1.1
 kaggle
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
